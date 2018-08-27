@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B308A6A92133F44D005100E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6A82133F44D005100E0 /* AppDelegate.swift */; };
+		B308A6AB2133F44D005100E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6AA2133F44D005100E0 /* ViewController.swift */; };
+		B308A6AE2133F44D005100E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308A6AC2133F44D005100E0 /* Main.storyboard */; };
+		B308A6B02133F44E005100E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B308A6AF2133F44E005100E0 /* Assets.xcassets */; };
+		B308A6B32133F44E005100E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */; };
+		B308A6BE2133F44E005100E0 /* ZKPasswordGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B308A6BA2133F44E005100E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B308A69D2133F44D005100E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B308A6A42133F44D005100E0;
+			remoteInfo = ZKPasswordGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKPasswordGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B308A6A82133F44D005100E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B308A6AA2133F44D005100E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B308A6AD2133F44D005100E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B308A6AF2133F44E005100E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B308A6B22133F44E005100E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B308A6B42133F44E005100E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKPasswordGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKPasswordGuideTests.swift; sourceTree = "<group>"; };
+		B308A6BF2133F44E005100E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B308A6A22133F44D005100E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B308A6B62133F44E005100E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B308A69C2133F44D005100E0 = {
+			isa = PBXGroup;
+			children = (
+				B308A6A72133F44D005100E0 /* ZKPasswordGuide */,
+				B308A6BC2133F44E005100E0 /* ZKPasswordGuideTests */,
+				B308A6A62133F44D005100E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B308A6A62133F44D005100E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */,
+				B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B308A6A72133F44D005100E0 /* ZKPasswordGuide */ = {
+			isa = PBXGroup;
+			children = (
+				B308A6A82133F44D005100E0 /* AppDelegate.swift */,
+				B308A6AA2133F44D005100E0 /* ViewController.swift */,
+				B308A6AC2133F44D005100E0 /* Main.storyboard */,
+				B308A6AF2133F44E005100E0 /* Assets.xcassets */,
+				B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */,
+				B308A6B42133F44E005100E0 /* Info.plist */,
+			);
+			path = ZKPasswordGuide;
+			sourceTree = "<group>";
+		};
+		B308A6BC2133F44E005100E0 /* ZKPasswordGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */,
+				B308A6BF2133F44E005100E0 /* Info.plist */,
+			);
+			path = ZKPasswordGuideTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B308A6A42133F44D005100E0 /* ZKPasswordGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B308A6C22133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */;
+			buildPhases = (
+				B308A6A12133F44D005100E0 /* Sources */,
+				B308A6A22133F44D005100E0 /* Frameworks */,
+				B308A6A32133F44D005100E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKPasswordGuide;
+			productName = ZKPasswordGuide;
+			productReference = B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B308A6B82133F44E005100E0 /* ZKPasswordGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B308A6C52133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuideTests" */;
+			buildPhases = (
+				B308A6B52133F44E005100E0 /* Sources */,
+				B308A6B62133F44E005100E0 /* Frameworks */,
+				B308A6B72133F44E005100E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B308A6BB2133F44E005100E0 /* PBXTargetDependency */,
+			);
+			name = ZKPasswordGuideTests;
+			productName = ZKPasswordGuideTests;
+			productReference = B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B308A69D2133F44D005100E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Zeeshan;
+				TargetAttributes = {
+					B308A6A42133F44D005100E0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B308A6B82133F44E005100E0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B308A6A42133F44D005100E0;
+					};
+				};
+			};
+			buildConfigurationList = B308A6A02133F44D005100E0 /* Build configuration list for PBXProject "ZKPasswordGuide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B308A69C2133F44D005100E0;
+			productRefGroup = B308A6A62133F44D005100E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B308A6A42133F44D005100E0 /* ZKPasswordGuide */,
+				B308A6B82133F44E005100E0 /* ZKPasswordGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B308A6A32133F44D005100E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B308A6B32133F44E005100E0 /* LaunchScreen.storyboard in Resources */,
+				B308A6B02133F44E005100E0 /* Assets.xcassets in Resources */,
+				B308A6AE2133F44D005100E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B308A6B72133F44E005100E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B308A6A12133F44D005100E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B308A6AB2133F44D005100E0 /* ViewController.swift in Sources */,
+				B308A6A92133F44D005100E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B308A6B52133F44E005100E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B308A6BE2133F44E005100E0 /* ZKPasswordGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B308A6BB2133F44E005100E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B308A6A42133F44D005100E0 /* ZKPasswordGuide */;
+			targetProxy = B308A6BA2133F44E005100E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B308A6AC2133F44D005100E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B308A6AD2133F44D005100E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B308A6B22133F44E005100E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B308A6C02133F44E005100E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B308A6C12133F44E005100E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B308A6C32133F44E005100E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT34FQ82R2;
+				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B308A6C42133F44E005100E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT34FQ82R2;
+				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B308A6C62133F44E005100E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT34FQ82R2;
+				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKPasswordGuide.app/ZKPasswordGuide";
+			};
+			name = Debug;
+		};
+		B308A6C72133F44E005100E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT34FQ82R2;
+				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKPasswordGuide.app/ZKPasswordGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B308A6A02133F44D005100E0 /* Build configuration list for PBXProject "ZKPasswordGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B308A6C02133F44E005100E0 /* Debug */,
+				B308A6C12133F44E005100E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B308A6C22133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B308A6C32133F44E005100E0 /* Debug */,
+				B308A6C42133F44E005100E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B308A6C52133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B308A6C62133F44E005100E0 /* Debug */,
+				B308A6C72133F44E005100E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B308A69D2133F44D005100E0 /* Project object */;
+}
