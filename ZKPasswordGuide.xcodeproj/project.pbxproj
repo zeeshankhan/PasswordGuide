@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461CB846C0598B30559E9E76 /* Pods_ZKPasswordGuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */; };
+		4E76674B1497D277ADC537B7 /* Pods_ZKPasswordGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */; };
 		B308A6A92133F44D005100E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6A82133F44D005100E0 /* AppDelegate.swift */; };
 		B308A6AB2133F44D005100E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6AA2133F44D005100E0 /* ViewController.swift */; };
 		B308A6AE2133F44D005100E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308A6AC2133F44D005100E0 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKPasswordGuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKPasswordGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B308A6A82133F44D005100E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B308A6AA2133F44D005100E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKPasswordGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKPasswordGuideTests.swift; sourceTree = "<group>"; };
 		B308A6BF2133F44E005100E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide.release.xcconfig"; sourceTree = "<group>"; };
+		F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKPasswordGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E76674B1497D277ADC537B7 /* Pods_ZKPasswordGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461CB846C0598B30559E9E76 /* Pods_ZKPasswordGuideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32390889C991580991374C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */,
+				965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F79A05B4AAF34332BF97DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */,
+				E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */,
+				496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */,
+				DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B308A69C2133F44D005100E0 = {
 			isa = PBXGroup;
 			children = (
 				B308A6A72133F44D005100E0 /* ZKPasswordGuide */,
 				B308A6BC2133F44E005100E0 /* ZKPasswordGuideTests */,
 				B308A6A62133F44D005100E0 /* Products */,
+				3F79A05B4AAF34332BF97DB8 /* Pods */,
+				32390889C991580991374C19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B308A6C22133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */;
 			buildPhases = (
+				1AA9773BFDB3009C359C6FF9 /* [CP] Check Pods Manifest.lock */,
 				B308A6A12133F44D005100E0 /* Sources */,
 				B308A6A22133F44D005100E0 /* Frameworks */,
 				B308A6A32133F44D005100E0 /* Resources */,
+				00697EDAAA911DF60F0CE81E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B308A6C52133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuideTests" */;
 			buildPhases = (
+				F23254DDF2E2EC06C0CFCFF4 /* [CP] Check Pods Manifest.lock */,
 				B308A6B52133F44E005100E0 /* Sources */,
 				B308A6B62133F44E005100E0 /* Frameworks */,
 				B308A6B72133F44E005100E0 /* Resources */,
+				A63789A003492C349343BDB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +227,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00697EDAAA911DF60F0CE81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AA9773BFDB3009C359C6FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKPasswordGuide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63789A003492C349343BDB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23254DDF2E2EC06C0CFCFF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKPasswordGuideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B308A6A12133F44D005100E0 /* Sources */ = {
@@ -356,15 +483,13 @@
 		};
 		B308A6C32133F44E005100E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +499,13 @@
 		};
 		B308A6C42133F44E005100E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -392,17 +515,14 @@
 		};
 		B308A6C62133F44E005100E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,17 +533,14 @@
 		};
 		B308A6C72133F44E005100E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

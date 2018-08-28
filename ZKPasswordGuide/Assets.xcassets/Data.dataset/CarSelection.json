@@ -1,0 +1,43 @@
+{
+    "status": 2000,
+    "data": {
+        "carDriverId": 67540832,
+        "startTime": 1527492836825,
+        "carId": 4379,
+        "driverCarTypeId": 2,
+        "manualTripAllowed": false,
+        "walkInTripAllowed": false,
+        "useOtherLogo": false,
+        "pricingDto": {
+            "baseFare": 0,
+            "movingFare": 0,
+            "waitFarePerHour": 0,
+            "minimumFare": 0
+        },
+        "companyDetailDto": {
+            "companyId": 1,
+            "companyName": "Careem",
+            "busyScreenLogo": "https://s3-eu-west-1.amazonaws.com/careem/images/company/admalogo/careem_busy_logo.png",
+            "manualTripScreenLogo": "https://s3-eu-west-1.amazonaws.com/careem/images/company/admalogo/careem_busy_logo.png"
+        },
+        "carDto": {
+            "id": 4379,
+            "model": "ES350",
+            "make": "Lexus",
+            "color": "Black",
+            "licensePlate": "D77777",
+            "licenseAuthority": "Dubai",
+            "buildYear": 2015,
+            "optInAllowed": 0,
+            "colorCode": "#FFFFFF",
+            "uid": "09710040100000008424"
+        },
+        "driverCarTypeDto": {
+            "id": 2,
+            "name": "Business Sedan",
+            "passengerCapacity": null,
+            "optInAllowed": 1,
+            "serviceAreaId": 1
+        }
+    }
+}
