@@ -7,139 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461CB846C0598B30559E9E76 /* Pods_ZKPasswordGuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */; };
-		4E76674B1497D277ADC537B7 /* Pods_ZKPasswordGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */; };
-		B308A6A92133F44D005100E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6A82133F44D005100E0 /* AppDelegate.swift */; };
-		B308A6AB2133F44D005100E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6AA2133F44D005100E0 /* ViewController.swift */; };
-		B308A6AE2133F44D005100E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308A6AC2133F44D005100E0 /* Main.storyboard */; };
-		B308A6B02133F44E005100E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B308A6AF2133F44E005100E0 /* Assets.xcassets */; };
-		B308A6B32133F44E005100E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */; };
-		B308A6BE2133F44E005100E0 /* ZKPasswordGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */; };
+		B3153FFB21379BBD00268425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3153FFA21379BBD00268425 /* AppDelegate.swift */; };
+		B3153FFD21379BBD00268425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3153FFC21379BBD00268425 /* ViewController.swift */; };
+		B315400021379BBD00268425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3153FFE21379BBD00268425 /* Main.storyboard */; };
+		B315400221379BBE00268425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315400121379BBE00268425 /* Assets.xcassets */; };
+		B315400521379BBE00268425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B315400321379BBE00268425 /* LaunchScreen.storyboard */; };
+		B315400D21379C1100268425 /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315400C21379C1100268425 /* RuleView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B308A6BA2133F44E005100E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B308A69D2133F44D005100E0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B308A6A42133F44D005100E0;
-			remoteInfo = ZKPasswordGuide;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests.debug.xcconfig"; sourceTree = "<group>"; };
-		965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKPasswordGuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKPasswordGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B308A6A82133F44D005100E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B308A6AA2133F44D005100E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B308A6AD2133F44D005100E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B308A6AF2133F44E005100E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B308A6B22133F44E005100E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B308A6B42133F44E005100E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKPasswordGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKPasswordGuideTests.swift; sourceTree = "<group>"; };
-		B308A6BF2133F44E005100E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests.release.xcconfig"; sourceTree = "<group>"; };
-		E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide.debug.xcconfig"; sourceTree = "<group>"; };
-		E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKPasswordGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide.release.xcconfig"; sourceTree = "<group>"; };
-		F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKPasswordGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3153FF721379BBD00268425 /* ZKPasswordGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKPasswordGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3153FFA21379BBD00268425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3153FFC21379BBD00268425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3153FFF21379BBD00268425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B315400121379BBE00268425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B315400421379BBE00268425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B315400621379BBE00268425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B315400C21379C1100268425 /* RuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B308A6A22133F44D005100E0 /* Frameworks */ = {
+		B3153FF421379BBD00268425 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E76674B1497D277ADC537B7 /* Pods_ZKPasswordGuide.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B308A6B62133F44E005100E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				461CB846C0598B30559E9E76 /* Pods_ZKPasswordGuideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32390889C991580991374C19 /* Frameworks */ = {
+		B3153FEE21379BBD00268425 = {
 			isa = PBXGroup;
 			children = (
-				F7808E467F71CF69B6484D64 /* Pods_ZKPasswordGuide.framework */,
-				965FA16789864457AB838826 /* Pods_ZKPasswordGuideTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3F79A05B4AAF34332BF97DB8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */,
-				E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */,
-				496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */,
-				DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B308A69C2133F44D005100E0 = {
-			isa = PBXGroup;
-			children = (
-				B308A6A72133F44D005100E0 /* ZKPasswordGuide */,
-				B308A6BC2133F44E005100E0 /* ZKPasswordGuideTests */,
-				B308A6A62133F44D005100E0 /* Products */,
-				3F79A05B4AAF34332BF97DB8 /* Pods */,
-				32390889C991580991374C19 /* Frameworks */,
+				B3153FF921379BBD00268425 /* ZKPasswordGuide */,
+				B3153FF821379BBD00268425 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B308A6A62133F44D005100E0 /* Products */ = {
+		B3153FF821379BBD00268425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */,
-				B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */,
+				B3153FF721379BBD00268425 /* ZKPasswordGuide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B308A6A72133F44D005100E0 /* ZKPasswordGuide */ = {
+		B3153FF921379BBD00268425 /* ZKPasswordGuide */ = {
 			isa = PBXGroup;
 			children = (
-				B308A6A82133F44D005100E0 /* AppDelegate.swift */,
-				B308A6AA2133F44D005100E0 /* ViewController.swift */,
-				B308A6AC2133F44D005100E0 /* Main.storyboard */,
-				B308A6AF2133F44E005100E0 /* Assets.xcassets */,
-				B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */,
-				B308A6B42133F44E005100E0 /* Info.plist */,
+				B315400C21379C1100268425 /* RuleView.swift */,
+				B3153FFA21379BBD00268425 /* AppDelegate.swift */,
+				B3153FFC21379BBD00268425 /* ViewController.swift */,
+				B3153FFE21379BBD00268425 /* Main.storyboard */,
+				B315400121379BBE00268425 /* Assets.xcassets */,
+				B315400321379BBE00268425 /* LaunchScreen.storyboard */,
+				B315400621379BBE00268425 /* Info.plist */,
 			);
 			path = ZKPasswordGuide;
-			sourceTree = "<group>";
-		};
-		B308A6BC2133F44E005100E0 /* ZKPasswordGuideTests */ = {
-			isa = PBXGroup;
-			children = (
-				B308A6BD2133F44E005100E0 /* ZKPasswordGuideTests.swift */,
-				B308A6BF2133F44E005100E0 /* Info.plist */,
-			);
-			path = ZKPasswordGuideTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B308A6A42133F44D005100E0 /* ZKPasswordGuide */ = {
+		B3153FF621379BBD00268425 /* ZKPasswordGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B308A6C22133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */;
+			buildConfigurationList = B315400921379BBE00268425 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */;
 			buildPhases = (
-				1AA9773BFDB3009C359C6FF9 /* [CP] Check Pods Manifest.lock */,
-				B308A6A12133F44D005100E0 /* Sources */,
-				B308A6A22133F44D005100E0 /* Frameworks */,
-				B308A6A32133F44D005100E0 /* Resources */,
-				00697EDAAA911DF60F0CE81E /* [CP] Embed Pods Frameworks */,
+				B3153FF321379BBD00268425 /* Sources */,
+				B3153FF421379BBD00268425 /* Frameworks */,
+				B3153FF521379BBD00268425 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,49 +84,25 @@
 			);
 			name = ZKPasswordGuide;
 			productName = ZKPasswordGuide;
-			productReference = B308A6A52133F44D005100E0 /* ZKPasswordGuide.app */;
+			productReference = B3153FF721379BBD00268425 /* ZKPasswordGuide.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B308A6B82133F44E005100E0 /* ZKPasswordGuideTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B308A6C52133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuideTests" */;
-			buildPhases = (
-				F23254DDF2E2EC06C0CFCFF4 /* [CP] Check Pods Manifest.lock */,
-				B308A6B52133F44E005100E0 /* Sources */,
-				B308A6B62133F44E005100E0 /* Frameworks */,
-				B308A6B72133F44E005100E0 /* Resources */,
-				A63789A003492C349343BDB1 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B308A6BB2133F44E005100E0 /* PBXTargetDependency */,
-			);
-			name = ZKPasswordGuideTests;
-			productName = ZKPasswordGuideTests;
-			productReference = B308A6B92133F44E005100E0 /* ZKPasswordGuideTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B308A69D2133F44D005100E0 /* Project object */ = {
+		B3153FEF21379BBD00268425 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Zeeshan;
 				TargetAttributes = {
-					B308A6A42133F44D005100E0 = {
+					B3153FF621379BBD00268425 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					B308A6B82133F44E005100E0 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = B308A6A42133F44D005100E0;
 					};
 				};
 			};
-			buildConfigurationList = B308A6A02133F44D005100E0 /* Build configuration list for PBXProject "ZKPasswordGuide" */;
+			buildConfigurationList = B3153FF221379BBD00268425 /* Build configuration list for PBXProject "ZKPasswordGuide" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,169 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B308A69C2133F44D005100E0;
-			productRefGroup = B308A6A62133F44D005100E0 /* Products */;
+			mainGroup = B3153FEE21379BBD00268425;
+			productRefGroup = B3153FF821379BBD00268425 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B308A6A42133F44D005100E0 /* ZKPasswordGuide */,
-				B308A6B82133F44E005100E0 /* ZKPasswordGuideTests */,
+				B3153FF621379BBD00268425 /* ZKPasswordGuide */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B308A6A32133F44D005100E0 /* Resources */ = {
+		B3153FF521379BBD00268425 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B308A6B32133F44E005100E0 /* LaunchScreen.storyboard in Resources */,
-				B308A6B02133F44E005100E0 /* Assets.xcassets in Resources */,
-				B308A6AE2133F44D005100E0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B308A6B72133F44E005100E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B315400521379BBE00268425 /* LaunchScreen.storyboard in Resources */,
+				B315400221379BBE00268425 /* Assets.xcassets in Resources */,
+				B315400021379BBD00268425 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		00697EDAAA911DF60F0CE81E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
-				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuide/Pods-ZKPasswordGuide-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1AA9773BFDB3009C359C6FF9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZKPasswordGuide-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A63789A003492C349343BDB1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKPasswordGuideTests/Pods-ZKPasswordGuideTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F23254DDF2E2EC06C0CFCFF4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZKPasswordGuideTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B308A6A12133F44D005100E0 /* Sources */ = {
+		B3153FF321379BBD00268425 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B308A6AB2133F44D005100E0 /* ViewController.swift in Sources */,
-				B308A6A92133F44D005100E0 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B308A6B52133F44E005100E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B308A6BE2133F44E005100E0 /* ZKPasswordGuideTests.swift in Sources */,
+				B315400D21379C1100268425 /* RuleView.swift in Sources */,
+				B3153FFD21379BBD00268425 /* ViewController.swift in Sources */,
+				B3153FFB21379BBD00268425 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B308A6BB2133F44E005100E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B308A6A42133F44D005100E0 /* ZKPasswordGuide */;
-			targetProxy = B308A6BA2133F44E005100E0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B308A6AC2133F44D005100E0 /* Main.storyboard */ = {
+		B3153FFE21379BBD00268425 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B308A6AD2133F44D005100E0 /* Base */,
+				B3153FFF21379BBD00268425 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B308A6B12133F44E005100E0 /* LaunchScreen.storyboard */ = {
+		B315400321379BBE00268425 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B308A6B22133F44E005100E0 /* Base */,
+				B315400421379BBE00268425 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -367,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B308A6C02133F44E005100E0 /* Debug */ = {
+		B315400721379BBE00268425 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B308A6C12133F44E005100E0 /* Release */ = {
+		B315400821379BBE00268425 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -481,105 +280,64 @@
 			};
 			name = Release;
 		};
-		B308A6C32133F44E005100E0 /* Debug */ = {
+		B315400A21379BBE00268425 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85562CA3EE2E7231F652641 /* Pods-ZKPasswordGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		B308A6C42133F44E005100E0 /* Release */ = {
+		B315400B21379BBE00268425 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E92A81F0525392823E10A6EA /* Pods-ZKPasswordGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT34FQ82R2;
 				INFOPLIST_FILE = ZKPasswordGuide/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B308A6C62133F44E005100E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496FB2C6BA233B488D2630C7 /* Pods-ZKPasswordGuideTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UT34FQ82R2;
-				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKPasswordGuide.app/ZKPasswordGuide";
-			};
-			name = Debug;
-		};
-		B308A6C72133F44E005100E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE476F0696F8180737C709A /* Pods-ZKPasswordGuideTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UT34FQ82R2;
-				INFOPLIST_FILE = ZKPasswordGuideTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.ZKPasswordGuideTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKPasswordGuide.app/ZKPasswordGuide";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B308A6A02133F44D005100E0 /* Build configuration list for PBXProject "ZKPasswordGuide" */ = {
+		B3153FF221379BBD00268425 /* Build configuration list for PBXProject "ZKPasswordGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B308A6C02133F44E005100E0 /* Debug */,
-				B308A6C12133F44E005100E0 /* Release */,
+				B315400721379BBE00268425 /* Debug */,
+				B315400821379BBE00268425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B308A6C22133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */ = {
+		B315400921379BBE00268425 /* Build configuration list for PBXNativeTarget "ZKPasswordGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B308A6C32133F44E005100E0 /* Debug */,
-				B308A6C42133F44E005100E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B308A6C52133F44E005100E0 /* Build configuration list for PBXNativeTarget "ZKPasswordGuideTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B308A6C62133F44E005100E0 /* Debug */,
-				B308A6C72133F44E005100E0 /* Release */,
+				B315400A21379BBE00268425 /* Debug */,
+				B315400B21379BBE00268425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B308A69D2133F44D005100E0 /* Project object */;
+	rootObject = B3153FEF21379BBD00268425 /* Project object */;
 }
