@@ -56,9 +56,9 @@
 		B3153FF921379BBD00268425 /* ZKPasswordGuide */ = {
 			isa = PBXGroup;
 			children = (
-				B315400C21379C1100268425 /* RuleView.swift */,
 				B3153FFA21379BBD00268425 /* AppDelegate.swift */,
 				B3153FFC21379BBD00268425 /* ViewController.swift */,
+				B315400C21379C1100268425 /* RuleView.swift */,
 				B3153FFE21379BBD00268425 /* Main.storyboard */,
 				B315400121379BBE00268425 /* Assets.xcassets */,
 				B315400321379BBE00268425 /* LaunchScreen.storyboard */,

@@ -11,21 +11,33 @@ import UIKit
 class RuleView: UIView {
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var strikethroughView: UIView!
+    @IBOutlet private weak var strikethroughViewWidth: NSLayoutConstraint!
     private var isStriked = false
     
     private func toggleStrikethrough() {
-        
+
+        self.titleLabel.transform = CGAffineTransform(translationX: 10, y: 0)
+        UIView.animate(withDuration: 0.3,
+                       delay: 0,
+                       usingSpringWithDamping: 0.7,
+                       initialSpringVelocity: 1,
+                       options: .curveEaseInOut,
+                       animations: {
+                        self.strikethroughViewWidth.constant = self.isStriked ? 0 : self.titleLabel.frame.width + 2.0
+                        self.titleLabel.transform = CGAffineTransform.identity
+                        self.layoutIfNeeded()
+        }, completion: nil)
     }
 
     func addStrikethrough() {
         guard !isStriked else { return }
-        isStriked = true
         toggleStrikethrough()
+        isStriked = true
     }
     
     func removeStrikethrough() {
         guard isStriked else { return }
-        isStriked = false
         toggleStrikethrough()
+        isStriked = false
     }
 }
