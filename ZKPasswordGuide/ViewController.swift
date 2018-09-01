@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var lockImageView: UIImageView! /// for rotation
     @IBOutlet private weak var rulesView: UIView! /// for rotation
     @IBOutlet private weak var ruleContainerView: UIView! /// for outer gray corner
     @IBOutlet private weak var ruleStackViewContainer: UIView! /// For inner gray corner
@@ -23,18 +24,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        /// Set initial form
         checkedImageView.transform = CGAffineTransform(scaleX: 0.01, y: 0.01);
+
+        /// Set Corners
         ruleStackViewContainer.layer.cornerRadius = 4.0
         ruleContainerView.layer.cornerRadius = 4.0
-        
-        let degree = -1.5
-        let angle = CGFloat(degree * .pi/180)
-        rulesView.transform = CGAffineTransform(rotationAngle: angle)
-        rulesView.layer.borderWidth = 1
-        rulesView.layer.borderColor = UIColor.clear.cgColor //#colorLiteral(red: 0.2901960784, green: 0.2039215686, blue: 0.5764705882, alpha: 1).cgColor
-        rulesView.layer.shouldRasterize = true
-        rulesView.layer.rasterizationScale = UIScreen.main.scale
         rulesView.layer.cornerRadius = 4.0
+
+        /// Rotate Views
+        lockImageView.rotate(angle: -15)
+        rulesView.rotate(angle: -2.5)
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(textFieldDidChange),
@@ -50,65 +50,48 @@ class ViewController: UIViewController {
             specialCharacterRuleView.removeStrikethrough()
             return
         }
-        let isCountOk = text.count < 8
-        if isCountOk {
-            characterCountRuleView.removeStrikethrough()
-        } else {
-            characterCountRuleView.addStrikethrough()
-        }
-        
-        let numberRegEx = ".*[0-9]+.*"
-        let numbertest = NSPredicate(format:"SELF MATCHES %@", numberRegEx)
-        let isNumOk = !numbertest.evaluate(with: text)
-        if isNumOk {
-            numberLetterRuleView.removeStrikethrough()
-        } else {
-            numberLetterRuleView.addStrikethrough()
-        }
 
-        let upperRegEx = ".*[A-Z]+.*"
-        let uppertest = NSPredicate(format:"SELF MATCHES %@", upperRegEx)
-        let isUppercaseOk = !uppertest.evaluate(with: text)
-        if isUppercaseOk {
-            uppercaseLetterRuleView.removeStrikethrough()
-        } else {
-            uppercaseLetterRuleView.addStrikethrough()
-        }
+        let isCountOk = text.count > 7
+        isCountOk
+            ? characterCountRuleView.addStrikethrough()
+            : characterCountRuleView.removeStrikethrough()
         
-        let regex = try! NSRegularExpression(pattern: ".*[^A-Za-z0-9].*", options: NSRegularExpression.Options())
-        let isSpecOk = regex.firstMatch(in: text, options: NSRegularExpression.MatchingOptions(), range:NSMakeRange(0, text.count)) != nil
-        if isSpecOk {
-            print("could not handle special characters")
-            specialCharacterRuleView.addStrikethrough()
-        } else {
-            specialCharacterRuleView.removeStrikethrough()
-        }
+        let isNumOk = text.isNumberIncluded
+        isNumOk
+            ? numberLetterRuleView.addStrikethrough()
+            : numberLetterRuleView.removeStrikethrough()
+
+        let isUppercaseOk = text.isUppercaseIncluded
+        isUppercaseOk
+            ? uppercaseLetterRuleView.addStrikethrough()
+            : uppercaseLetterRuleView.removeStrikethrough()
+        
+        let isSpecOk = text.isSpecialCharIncluded
+        isSpecOk
+            ? specialCharacterRuleView.addStrikethrough()
+            : specialCharacterRuleView.removeStrikethrough()
      
-        if !isCountOk, !isNumOk, !isUppercaseOk, isSpecOk {
-            growImage()
-        } else {
-            shrinkImage()
-        }
+        (isCountOk && isNumOk && isUppercaseOk && isSpecOk)
+            ? growImage()
+            : shrinkImage()
     }
     
     func growImage() {
-        if !checkedImageView.transform.isIdentity {
-            UIView.animate(withDuration: 0.3,
-                           delay: 0,
-                           usingSpringWithDamping: 1,
-                           initialSpringVelocity: 1,
-                           options: .curveEaseInOut,
-                           animations: {
-                            self.checkedImageView.transform = CGAffineTransform.identity
-                }, completion: nil)            
-        }
+        guard !checkedImageView.transform.isIdentity else { return }
+        UIView.animate(withDuration: 0.3,
+                       delay: 0,
+                       usingSpringWithDamping: 1,
+                       initialSpringVelocity: 1,
+                       options: .curveEaseInOut,
+                       animations: {
+                        self.checkedImageView.transform = .identity
+        }, completion: nil)
     }
     
     func shrinkImage() {
-        if checkedImageView.transform.isIdentity {
-            UIView.animate(withDuration: 0.3) {
-                self.checkedImageView.transform = CGAffineTransform(scaleX: 0.01, y: 0.01);
-            }
+        guard checkedImageView.transform.isIdentity else { return }
+        UIView.animate(withDuration: 0.3) {
+            self.checkedImageView.transform = CGAffineTransform(scaleX: 0.01, y: 0.01);
         }
     }
 }

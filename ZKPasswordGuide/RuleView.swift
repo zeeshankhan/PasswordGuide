@@ -15,8 +15,7 @@ class RuleView: UIView {
     private var isStriked = false
     
     private func toggleStrikethrough() {
-
-        self.titleLabel.transform = CGAffineTransform(translationX: 10, y: 0)
+        titleLabel.transform = CGAffineTransform(translationX: 10, y: 0)
         UIView.animate(withDuration: 0.3,
                        delay: 0,
                        //usingSpringWithDamping: 0.7,
@@ -24,7 +23,7 @@ class RuleView: UIView {
                        options: .curveEaseInOut,
                        animations: {
                         self.strikethroughViewWidth.constant = self.isStriked ? 0 : self.titleLabel.frame.width + 2.0
-                        self.titleLabel.transform = CGAffineTransform.identity
+                        self.titleLabel.transform = .identity
                         self.layoutIfNeeded()
         }, completion: nil)
     }
