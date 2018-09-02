@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet private weak var lockImageView: UIImageView! /// for rotation
     @IBOutlet private weak var rulesView: UIView! /// for rotation
     @IBOutlet private weak var ruleContainerView: UIView! /// for outer gray corner
     @IBOutlet private weak var ruleStackViewContainer: UIView! /// For inner gray corner
@@ -33,7 +32,6 @@ class ViewController: UIViewController {
         rulesView.layer.cornerRadius = 4.0
 
         /// Rotate Views
-        lockImageView.rotate(angle: -15)
         rulesView.rotate(angle: -2.5)
         
         NotificationCenter.default.addObserver(self,
