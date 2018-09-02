@@ -311,7 +311,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.40784313729999999" green="0.074509803920000006" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.40784313725490196" green="0.074509803921568626" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -351,4 +351,5 @@
         <image name="checked" width="30" height="30"/>
         <image name="notebookBG" width="253" height="182"/>
     </resources>
+    <color key="tintColor" red="0.40784313729999999" green="0.074509803920000006" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
